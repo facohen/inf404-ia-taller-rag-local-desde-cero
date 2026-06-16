@@ -62,7 +62,7 @@ Notebook principal:
 - Ejemplo de chatbot ingenuo que alucina.
 - Reformulacion con guardrails para rechazar o derivar preguntas fuera de alcance.
 - Chatbot simulado sin depender de una LLM.
-- Chatbot RAG con LLM real local usando Gemma chica o fallback liviano.
+- Chatbot RAG con LLM real local: descarga Gemma con `transformers` y genera sin API externa de chat.
 - Evaluacion simple con `precision_top_1`, `recuperacion_contexto` y `accuracy_politica`.
 - Salidas esperadas documentadas en Markdown.
 
