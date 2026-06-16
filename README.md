@@ -22,7 +22,7 @@ Importante: no es informacion bancaria oficial. Es una demo para aprender RAG.
 - Jupyter Notebook, instalado por `make setup`.
 - Conexion a internet la primera vez, para instalar paquetes y descargar el modelo de embeddings.
 - Memoria suficiente para cargar `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`, un modelo chico para embeddings multilingues.
-- Opcional: una API key de OpenAI u Ollama local si se quiere probar una LLM real al final.
+- Una sesion gratuita de Colab alcanza para la demo. GPU es opcional, pero acelera la generacion con la LLM.
 
 ## Por que sin Docker
 
@@ -62,8 +62,8 @@ Notebook principal:
 - Ejemplo de chatbot ingenuo que alucina.
 - Reformulacion con guardrails para rechazar o derivar preguntas fuera de alcance.
 - Chatbot simulado sin depender de una LLM.
+- Chatbot RAG con LLM real local usando Gemma chica o fallback liviano.
 - Evaluacion simple con `precision_top_1`, `recuperacion_contexto` y `accuracy_politica`.
-- LLM real opcional al final.
 - Salidas esperadas documentadas en Markdown.
 
 ## Preguntas para mostrar que funciona
