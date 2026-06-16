@@ -1,0 +1,23 @@
+{
+  "source": "sucursales_cordoba.json",
+  "category": "sucursales",
+  "title": "Sucursales de Cordoba - datos ficticios para clase",
+  "sections": [
+    {
+      "heading": "Cordoba Capital - Centro",
+      "text": "Sucursal Cordoba Centro: Av. General Paz 120, Cordoba Capital. Atiende consultas generales, apertura de cuentas, tarjetas y orientacion sobre canales digitales. Horario ficticio para clase: lunes a viernes de 10 a 15."
+    },
+    {
+      "heading": "Cordoba Capital - Nueva Cordoba",
+      "text": "Sucursal Nueva Cordoba: Bv. San Juan 540, Cordoba Capital. Atiende productos para personas, cajas de ahorro, cuentas sueldo y consultas de home banking. Horario ficticio para clase: lunes a viernes de 10 a 15."
+    },
+    {
+      "heading": "Villa Carlos Paz",
+      "text": "Sucursal Villa Carlos Paz: Av. San Martin 890, Villa Carlos Paz, Cordoba. Atiende consultas de cuentas, tarjetas y prestamos personales. Horario ficticio para clase: lunes a viernes de 10 a 15."
+    },
+    {
+      "heading": "Rio Cuarto",
+      "text": "Sucursal Rio Cuarto: Sobremonte 650, Rio Cuarto, Cordoba. Atiende productos para personas y comercios, cuenta corriente, caja de ahorro y canales digitales. Horario ficticio para clase: lunes a viernes de 10 a 15."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "source": "prestamos_y_tarjetas.json",
+  "category": "productos",
+  "title": "Prestamos y tarjetas - Banco Nacion educativo",
+  "sections": [
+    {
+      "heading": "Prestamo personal",
+      "text": "El prestamo personal permite solicitar dinero para distintos fines, sujeto a evaluacion crediticia. Para orientacion general se pueden pedir DNI, ingresos demostrables, antiguedad laboral o actividad declarada y datos de contacto. La aprobacion, el monto, la cuota y la tasa no se definen por chatbot."
+    },
+    {
+      "heading": "Tarjeta de debito",
+      "text": "La tarjeta de debito se asocia a una cuenta y permite compras, extracciones y operaciones en cajeros. Si se pierde la tarjeta, se debe bloquear por los canales oficiales y solicitar reposicion por Home Banking, BNA+, telefono oficial o sucursal."
+    },
+    {
+      "heading": "Tarjeta de credito",
+      "text": "La tarjeta de credito permite financiar consumos hasta un limite aprobado por el banco. La solicitud esta sujeta a evaluacion crediticia. El chatbot puede explicar requisitos generales, pero no puede aprobar limites ni informar condiciones vigentes."
+    }
+  ]
+}

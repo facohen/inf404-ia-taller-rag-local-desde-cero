@@ -1,0 +1,23 @@
+{
+  "source": "cuentas.json",
+  "category": "productos",
+  "title": "Productos de cuentas - Banco Nacion educativo",
+  "sections": [
+    {
+      "heading": "Caja de ahorro",
+      "text": "La caja de ahorro es una cuenta bancaria simple para guardar dinero, recibir transferencias, extraer efectivo con tarjeta de debito y operar por home banking. Para abrir una caja de ahorro se solicita DNI vigente, constancia de CUIL o CUIT y datos de contacto actualizados. En esta demo no se informan costos ni tasas reales."
+    },
+    {
+      "heading": "Cuenta corriente",
+      "text": "La cuenta corriente esta orientada a personas o comercios que necesitan una operatoria mas frecuente. Puede permitir el uso de cheques y otros servicios asociados, segun evaluacion del banco. Para solicitarla se requiere DNI, constancia de CUIL o CUIT, domicilio declarado, actividad economica y documentacion que justifique ingresos o actividad comercial."
+    },
+    {
+      "heading": "Cuenta sueldo",
+      "text": "La cuenta sueldo se usa para cobrar haberes. Usualmente la apertura se vincula con el empleador. Permite recibir el salario, operar con tarjeta de debito y consultar movimientos por canales digitales. Para gestionarla se necesitan datos personales, DNI y la informacion provista por el empleador."
+    },
+    {
+      "heading": "Diferencia entre caja de ahorro y cuenta corriente",
+      "text": "La caja de ahorro sirve para operaciones cotidianas simples, como recibir dinero, transferir y extraer efectivo. La cuenta corriente esta pensada para una operatoria mas comercial o intensiva, y puede incluir cheques u otros servicios sujetos a aprobacion."
+    }
+  ]
+}

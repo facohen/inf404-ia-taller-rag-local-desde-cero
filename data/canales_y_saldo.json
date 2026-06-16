@@ -1,0 +1,23 @@
+{
+  "source": "canales_y_saldo.json",
+  "category": "canales",
+  "title": "Canales digitales y consultas de saldo",
+  "sections": [
+    {
+      "heading": "Consulta de saldo",
+      "text": "El chatbot educativo no puede consultar saldos, movimientos ni datos personales. Si una persona pregunta cuanto saldo tengo, cual es mi saldo o quiere ver el saldo de su cuenta, debe ingresar a Home Banking, BNA+, un cajero automatico o consultar por los canales oficiales del banco."
+    },
+    {
+      "heading": "Home Banking",
+      "text": "Home Banking permite consultar saldos y movimientos, realizar transferencias, pagar servicios y administrar productos bancarios. Para operar se requiere usuario, clave y los mecanismos de seguridad definidos por el banco."
+    },
+    {
+      "heading": "BNA+",
+      "text": "BNA+ es un canal digital para operar desde el celular. Permite consultar informacion de cuentas, realizar pagos, transferencias y otras operaciones habilitadas. El chatbot solo puede orientar; no reemplaza el ingreso seguro a la aplicacion."
+    },
+    {
+      "heading": "Seguridad",
+      "text": "Nunca se deben pedir claves, token, numeros completos de tarjeta ni codigos de seguridad por chat. Si una consulta requiere identidad, saldo o movimientos, se debe derivar a Home Banking, BNA+ o una sucursal."
+    }
+  ]
+}

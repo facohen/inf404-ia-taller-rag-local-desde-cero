@@ -1,0 +1,23 @@
+{
+  "source": "fuera_de_alcance.json",
+  "category": "politicas",
+  "title": "Politicas de respuesta del chatbot educativo",
+  "sections": [
+    {
+      "heading": "Informacion no disponible",
+      "text": "Si una pregunta no esta respondida por los documentos cargados, el chatbot debe decir que no tiene informacion suficiente. No debe inventar requisitos, costos, tasas, promociones ni condiciones."
+    },
+    {
+      "heading": "Inflacion y variables economicas",
+      "text": "El chatbot educativo no informa inflacion, cotizacion del dolar, tasas vigentes ni predicciones economicas. Esos datos cambian con el tiempo y deben consultarse en fuentes oficiales o canales actualizados."
+    },
+    {
+      "heading": "Datos personales y operaciones",
+      "text": "El chatbot no puede aprobar prestamos, abrir cuentas, consultar saldo, modificar datos personales ni ejecutar operaciones bancarias. Solo puede orientar usando la informacion de los documentos."
+    },
+    {
+      "heading": "Respuesta segura",
+      "text": "Cuando la consulta pida datos personales, saldo, movimientos, claves o una operacion bancaria, la respuesta debe derivar a Home Banking, BNA+, cajero automatico, canal oficial o sucursal, segun corresponda."
+    }
+  ]
+}
