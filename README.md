@@ -26,17 +26,17 @@ Importante: no es informacion bancaria oficial. Es una demo para aprender RAG.
 
 ## Por que sin Docker
 
-Para una primera clase conviene reducir infraestructura. El notebook hace la
-busqueda vectorial en memoria con `numpy`.
+Para una primera clase conviene reducir infraestructura. El notebook usa
+Qdrant local en memoria, sin Docker y sin servidor externo.
 
 Conceptualmente:
 
 ```text
-pregunta -> embedding -> similitud contra fragmentos -> contexto -> chatbot
+pregunta -> embedding -> query a Qdrant -> contexto -> chatbot
 ```
 
-Mas adelante se puede reemplazar la busqueda en memoria por Qdrant, Pinecone,
-Weaviate, Elasticsearch vectorial u otra base vectorial.
+Mas adelante se puede reemplazar Qdrant en memoria por Qdrant persistente,
+Pinecone, Weaviate, Elasticsearch vectorial u otra base vectorial.
 
 ## Como correr
 
@@ -56,7 +56,9 @@ Notebook principal:
 - Documentos JSON definidos dentro del notebook.
 - Fragmentacion de documentos.
 - Generacion de embeddings.
-- Busqueda vectorial en memoria.
+- Carga de embeddings en Qdrant local en memoria.
+- Ejemplo de frase normal convertida en query embebida.
+- Ejemplos de query vectorial a Qdrant.
 - Paso intermedio de la query.
 - Prompt pedagogico del chatbot.
 - Ejemplo de chatbot ingenuo que alucina.
