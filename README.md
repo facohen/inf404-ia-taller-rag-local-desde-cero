@@ -59,6 +59,7 @@ Notebook principal:
 - Carga de embeddings en Qdrant local en memoria.
 - Ejemplo de frase normal convertida en query embebida.
 - Ejemplos de query vectorial a Qdrant.
+- Salidas tabulares con `pandas` para fragmentos, resultados y metricas.
 - Paso intermedio de la query.
 - Prompt pedagogico del chatbot.
 - Ejemplo de chatbot ingenuo que alucina.
