@@ -46,6 +46,7 @@ Ejecutar las secciones:
 
 - `De documentos a fragmentos`
 - `Creamos embeddings`
+- `Mini experimento: similitud entre frases`
 
 Explicar:
 
@@ -57,6 +58,9 @@ Explicar:
 Frase simple:
 
 > El embedding es una forma numerica de representar significado.
+
+Mostrar la tabla de similitud y remarcar que no estamos buscando palabras
+identicas: estamos comparando cercania semantica entre vectores.
 
 ### 22 a 35 min - Paso intermedio de la query
 
@@ -114,6 +118,7 @@ Resumen:
 - Documentos: conocimiento propio.
 - Fragmentos: unidades recuperables.
 - Embeddings: texto convertido en numeros.
+- Similitud: forma de ordenar textos por cercania semantica.
 - Retrieval: buscar contexto relevante.
 - Prompt: reglas para responder.
 - Chatbot: responde o deriva.

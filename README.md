@@ -53,9 +53,11 @@ Notebook principal:
 ## Que incluye el notebook
 
 - Celda inicial para instalar paquetes con `%pip install`.
+- Pregunta guia para recorrer todo el flujo: requisitos para abrir una cuenta corriente.
 - Documentos JSON definidos dentro del notebook.
 - Fragmentacion de documentos.
 - Generacion de embeddings.
+- Mini experimento de similitud entre frases antes de usar la base vectorial.
 - Carga de embeddings en Qdrant local en memoria.
 - Ejemplo de frase normal convertida en query embebida.
 - Ejemplos de query vectorial a Qdrant.
@@ -68,6 +70,15 @@ Notebook principal:
 - Chatbot RAG con LLM real local: descarga Gemma con `transformers` y genera sin API externa de chat.
 - Evaluacion simple con `precision_top_1`, `recuperacion_contexto` y `accuracy_politica`.
 - Salidas esperadas documentadas en Markdown.
+- Checklist final para repasar lo aprendido.
+
+## Ruta sugerida para 1 hora
+
+- 0 a 10 min: documentos JSON y fragmentos.
+- 10 a 25 min: embeddings y similitud entre frases.
+- 25 a 40 min: Qdrant y paso intermedio de la query.
+- 40 a 50 min: prompt, chatbot ingenuo y alucinacion.
+- 50 a 60 min: guardrails, metricas y Gemma local como cierre.
 
 ## Preguntas para mostrar que funciona
 

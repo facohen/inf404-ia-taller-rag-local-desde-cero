@@ -36,7 +36,10 @@ fragmentos
 embeddings
    |
    v
-busqueda por similitud
+similitud entre frases
+   |
+   v
+Qdrant: busqueda por similitud
    |
    v
 contexto recuperado
@@ -70,6 +73,12 @@ Una pregunta que el chatbot no debe responder porque no esta en los documentos,
 requiere datos personales o requiere informacion actualizada.
 
 ## Que observar
+
+Pregunta guia de la clase:
+
+```text
+Que requisitos necesito para abrir una cuenta corriente?
+```
 
 Cuando corramos el paso intermedio:
 
